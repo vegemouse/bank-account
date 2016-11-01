@@ -1,0 +1,8 @@
+#deposit, #depWith {
+  display:none;
+}
+#retCust {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
