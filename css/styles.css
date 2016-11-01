@@ -1,8 +1,14 @@
-#deposit, #depWith {
+#deposit, #depWith, .balance{
   display:none;
 }
 #retCust {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 20px;
+  top: 20px;
+}
+
+.balance {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 3em;
 }
