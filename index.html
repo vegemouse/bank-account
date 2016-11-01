@@ -9,33 +9,45 @@
     <title></title>
   </head>
   <body>
-    <button type="submit" class="btn btn-primary" id="retCust">Returning Customer</button>
     <div class="container">
-      <h1>Your Local Generic Bank</h1>
+      <div class="jumbotron">
+        <h1>Your Local Generic Bank</h1>
+          <button type="submit" class="btn btn-primary" id="newCust">New Customer</button>
+        <button type="submit" class="btn btn-primary" id="retCust">Returning Customer</button>
+      </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-sm-12">
           <form class="" id="getAccount">
             <h3>Create New Account</h3>
             <label for="firstName">First Name: </label>
             <input type="form-control" id="firstName"><br>
             <label for="lastName">Last Name: </label>
             <input type="form-control"  id="lastName"><br>
-            <button type="submit" class="btn btn-info">Next</button>
+            <h4>Address:</h4>
+            <label for="street">Street: </label>
+            <input type="form-control"  id="street"><br>
+            <label for="city">City: </label>
+            <input type="form-control"  id="city"><br>
+            <label for="state">State: </label>
+            <input type="form-control"  id="state"><br>
+            <label for="zip">Zip Code: </label>
+            <input type="form-control"  id="zip"><br>
+            <button type="submit" class="btn btn-primary" >Create Account</button>
           </form>
         </div>
-        <div class="col-md-6">
+        <div class="col-sm-6">
           <div id="deposit">
             <form class="" id="initialDeposit">
-              <h2>Make an Initial Deposit</h2>
+              <h3>Make an Initial Deposit</h3>
               <label for="initialAmount">Initial Amount: </label>
-              <input type="form-control" id="initialAmount"><br>
+              <input type="form-control" id="initialAmount"><br><br>
               <button type="submit" class="btn btn-primary">Deposit</button>
             </form>
           </div>
         </div>
       </div>
       <div id="depWith" class="row">
-        <div class="col-md-6">
+        <div class="col-sm-6">
           <form id="depositForm">
             <h3>Deposit Money</h3>
             <label for="makeDeposit">Amount: </label>
@@ -43,7 +55,7 @@
             <button type="submit" class="btn btn-primary">Deposit</button>
           </form>
         </div>
-        <div class="col-md-6">
+        <div class="col-sm-6">
           <form id="withdrawalForm">
             <h3>Withdraw Money</h3>
             <label for="makeWithdrawal">Amount: </label>
@@ -54,6 +66,8 @@
       </div>
       <div class="well balance" >
         <p><span id="outputtedBalance"></span></p>
+      </div>
+      <div class="well address">
       </div>
     </div>
 

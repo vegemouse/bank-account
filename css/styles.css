@@ -1,14 +1,50 @@
-#deposit, #depWith, .balance{
+* {
+  text-align: center;
+}
+
+#deposit, #depWith, .balance, .address{
   display:none;
 }
-#retCust {
-  position: absolute;
-  right: 20px;
-  top: 20px;
+
+#retCust, #newCust {
+  margin-right: 5px;
+  float: right;
 }
 
 .balance {
   margin-top: 40px;
   text-align: center;
   font-size: 3em;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+input {
+  margin: 5px;
+}
+
+.jumbotron {
+  background-image: url("http://animal-dream.com/data_images/money/money3.jpg");
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+form {
+  border: 1px solid #aabbcc;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #ddeeff;
+  margin-top: 10px;
+}
+
+.btn {
+  box-shadow: 2px 2px 3px #778899;
+}
+
+.well {
+  border: 1px solid #aabbcc;
+  background-color: #ddeeff;
+  border-radius: 10px;
 }
